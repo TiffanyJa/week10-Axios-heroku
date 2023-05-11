@@ -14,6 +14,40 @@ html {
     color: #151515;
 }
 
+.form-container{
+    width: 75%;
+    text-align: center;
+    margin: 2rem auto;
+    
+
+}
+
+form {
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+.result-container {
+    text-align: left;
+    margin-left: 5rem ;
+    margin-right: 5rem ;
+}
+
+.movie-data-list{
+    list-style: none;
+    line-height: 2rem;
+}
+
+span{
+    font-weight: bold;
+}
+
+.image-container img{
+    margin-top: 2rem;
+    height: 500px;
+    border-radius:20px;
+}
 .movie-card {
     margin-top: 5rem;
     height: 800px;
@@ -113,4 +147,8 @@ footer ul li a {
     text-transform: uppercase;
     text-decoration: none;
     color: #777;
+}
+
+.back-button-container{
+    margin-left:  5rem;
 }
